@@ -56,7 +56,7 @@ SELECT
   MAX(Volume)
 FROM `big-data-analytics-cloud.lab1_eda.nvda_stocks`;
 
--- STEP 4: Checking for suplicate records
+-- STEP 4: Checking for duplicate records
 SELECT
   DATE,
   COUNT(*) AS Duplicate_records
